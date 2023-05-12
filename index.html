@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homepage</title>
+	<style>
+		html, body {
+			margin: 0;
+			padding: 0;
+			height: 100%;
+		}
+		.container {
+			display: flex;
+			flex-direction: column;
+			height: 190vh;
+			position: relative;
+		}
+		.image {
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			height: 100%;
+			width: 100%;
+			filter: brightness(50%);
+		}
+		.header {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			font-size: 5em;
+			font-weight: bold;
+			height: 10%;
+			width: 100%;
+			position: absolute;
+			top: 0;
+			left: 0;
+			color: white;
+		}
+		.buttons {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			height: 10%;
+			width: 100%;
+			position: absolute;
+			top: 10%;
+			left: 0;
+		}
+		.buttons button {
+			margin: 0 100px;
+			padding: 30px 80px 30px 80px;
+			font-size: 20px;
+			background-color:#1E9EE5;
+			border: none;
+			border-radius: 10px;
+			box-shadow: -10px 10px 2px rgb(83, 83, 83);
+			cursor: pointer;
+		}
+		.text {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			font-size: 3em;
+			height: 10%;
+			width: 100%;
+			position: absolute;
+			bottom: 65%;
+			left: 0;
+			text-align: center;
+			padding-left: 0%;
+			color: white;
+		
+		}
+		.corner {
+			position: fixed;
+            font-size: 2em;
+            font-weight: bold;
+            bottom: 0;
+			color: white;
+		}
+		.top-left {
+			top: 10px;
+			left: 10px;
+		}
+		.bottom-left {
+			bottom: 10px;
+			left: 10px;
+		}
+		.bottom-right {
+			bottom: 10px;
+			right: 10px;
+		}
+        .bottom-left .icon {
+  display: inline-block;
+  vertical-align: middle; /* aligns the icon and text vertically */
+  margin-right: 10px;
+}
+
+.bottom-left .icon img {
+  width: 30px;
+  height: 30px;
+}
+
+a{
+    text-decoration: none;
+}
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="container" style="background-color: black; height:0px;"></div>
+		<div class="image" style="background-image: url('file:///D:/Dyllon/HTML/Homepage/photo-output.JPG')">
+		</div>
+
+			<div class="header">Home</div>
+			<div class="buttons">
+				<button><a href="introduction.html">intro</a></button>
+				<button><a href="works.html">works</a></button>
+				<button><a href="about.html">about</a></button>
+			</div>
+			<div class="text">
+                Over here I take photographs of Electric Guitars ,Guitar Amplifiers and.<br>
+				Effect pedals too It is all to be documented and to be admired by <br>
+				guitarist around the world. Hope you like the content .<br>
+
+            </div>
+		</div>\
+		<div class="corner top-left">EGs_Official</div>
+		<div class="corner bottom-left"><span class="icon"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png" alt="icon"></span>EGs_Official</div>
+		<div class="corner bottom-right">dyllontwr-wk22@gmail.com</div>
+	</div>
+</body>
+</html>
